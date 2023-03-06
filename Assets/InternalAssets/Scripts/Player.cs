@@ -35,7 +35,6 @@ public partial class Player : MonoBehaviour
 	private void FixedUpdate()
 	{
 		IsGrounded = IsGroundedHit && IsConflictCollision;
-
 		OnMovement();
 		Raycast();
 	}
